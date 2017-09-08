@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <script type="text/javascript" src="Waterfall.js"></script>
+    <link rel="stylesheet" type="text/css" href="Waterfall.css">
+</head>
+<body>
+<div class="wf-main" id="wf-main">
+    <div class="wf-cld"><h2>1</h2></div>
+    <div class="wf-cld">2<br>2</div>
+    <div class="wf-cld">3<br>4<br>4</div>
+    <div class="wf-cld">4<br>4<br>4<br>4</div>
+    <div class="wf-cld">5<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">6<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">7<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">8<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">9<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    
+    <div class="wf-cld">10<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">18<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">19<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">20<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld" id="wf-inner">
+        <!-- <h2 class="inner title">21、内部瀑布流</h2>
+        <div class="inner">21-1<br>1</div>
+        <div class="inner">21-2</div>
+        <div class="inner">21-3</div>
+        <div class="inner">21-4</div>
+        <div class="inner">21-5<br></div>
+        <div class="inner">21-6</div>
+        <div class="inner">21-7</div>
+        <div class="inner">21-8</div>
+        <div class="inner">21-9</div> -->
+    </div>
+    <div class="wf-cld">22<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">23<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">24<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">11<br>2<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">12<br>2<br>2<br>3<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">13<br>4<br>4<br>3<br>3<br>1<br>2<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">14<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">15<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">16<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+    <div class="wf-cld">17<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4<br>4</div>
+</div>
+<script type="text/javascript">
+
+// for(var i =0 ;i <20 ; i++){
+//     var ul = document.getElementById('wf-main');
+//     var li = document.createElement("div");
+//     li.setAttribute("className", "wf-cld");
+//     li.style.height = '200px';
+//     ul.appendChild(li);
+// }
+
+// new Waterfall({
+//     "container":"wf-inner",
+//     "colWidth":77,
+//     "colCount":3,
+//     "cls":"inner"
+// });
+
+new Waterfall({
+    "container":"wf-main",
+    "colWidth":244,
+    "colCount":4
+});
+</script>
+</body>
+</html>

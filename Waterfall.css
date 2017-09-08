@@ -1,0 +1,36 @@
+.wf-main{
+    position: relative;
+    margin: 0 auto;
+    width: 990px;
+    overflow: hidden;
+}
+.wf-main .wf-cld{
+    position: absolute;
+    margin-bottom: 10px;
+    padding:5px 8px;
+    width: 214px;
+    left: -9999px;
+    top: -9999px;
+    line-height:18px;
+    border: 1px solid red;
+    overflow: hidden;
+    border:1px solid red;
+}
+
+.wf-cld .inner{
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    margin-bottom: 5px;
+    width: 73px;
+    overflow: hidden;
+    border: 1px solid #f00;
+    border-radius: 3px;
+}
+.wf-cld .title{
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 63px;
+    color: #f00;
+    font-size: 14px;
+}
